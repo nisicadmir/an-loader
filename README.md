@@ -54,14 +54,14 @@ this.loaderService.display(false); // <-- turn off loader
 ### Edit css
 
 Main wrapper class
-z-index for .an-angular-looader is 10000
+z-index for .an-looader is 10000
 
 ```less
-.an-angular-looader
+.an-looader
 ```
 
 Loader class
 
 ```less
-.an-angular-looader-icon
+.an-looader-icon
 ```
