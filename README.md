@@ -37,7 +37,14 @@ In app.component.html
 <an-loader></an-loader>
 ```
 
-In your component
+In your component, first import
+
+```javascript
+import { AnLoaderService } from 'an-loader';
+constructor(private loaderService: AnLoaderService){}
+```
+
+Then anywhere in your component
 
 ```javascript
 this.loaderService.display(true); // <-- turn on loader
