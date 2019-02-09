@@ -23,7 +23,7 @@ import { AnAngularLoaderModule } from 'an-angular-loader';
   declarations: [AppComponent],
   imports: [
     BrowserModule,
-    AnAngularLoaderModule.forRoot(), // <--
+    AnAngularLoaderModule.forRoot(), // <-- import here, forRoot() is necessary
   ],
   providers: [],
   bootstrap: [AppComponent],
@@ -35,4 +35,26 @@ In app.component.html
 
 ```html
 <an-angular-loader></an-angular-loader>
+```
+
+In your component
+
+```javascript
+this.loaderService.display(true); // <-- turn on loader
+this.loaderService.display(false); // <-- turn off loader
+```
+
+### Edit css
+
+Main wrapper class
+z-index for .an-angular-looader is 10000
+
+```less
+.an-angular-looader
+```
+
+Loader class
+
+```less
+.an-angular-looader-icon
 ```
