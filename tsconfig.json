@@ -18,11 +18,11 @@
       "dom"
     ],
     "paths": {
-      "an-angular-loader": [
-        "dist/an-angular-loader"
+      "an-loader": [
+        "dist/an-loader"
       ],
-      "an-angular-loader/*": [
-        "dist/an-angular-loader/*"
+      "an-loader/*": [
+        "dist/an-loader/*"
       ]
     }
   }

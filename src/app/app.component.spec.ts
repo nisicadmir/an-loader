@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'an-angular-loader-lib'`, () => {
+  it(`should have as title 'an-loader-lib'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('an-angular-loader-lib');
+    expect(app.title).toEqual('an-loader-lib');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to an-angular-loader-lib!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to an-loader-lib!');
   });
 });

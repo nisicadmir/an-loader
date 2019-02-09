@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { AnAngularLoaderService } from './an-angular-loader.service';
+import { AnLoaderService } from './an-loader.service';
 
 @Component({
-  selector: 'an-angular-loader',
-  templateUrl: 'an-angular-loader.component.html',
-  styleUrls: ['an-angular-loader.component.less'],
+  selector: 'an-loader',
+  templateUrl: 'an-loader.component.html',
+  styleUrls: ['an-loader.component.less'],
 })
-export class AnAngularLoaderComponent implements OnInit {
+export class AnLoaderComponent implements OnInit {
   public showLoader: number[] = [];
   private subscription: Subscription;
 
-  constructor(public loaderService: AnAngularLoaderService) {}
+  constructor(public loaderService: AnLoaderService) {}
 
   ngOnInit() {
     this.initLoader();
@@ -22,7 +22,7 @@ export class AnAngularLoaderComponent implements OnInit {
 
   /**
    * Turns on or off the global loader
-   * constructor(public loaderService: AnAngularLoaderService) {}
+   * constructor(public loaderService: AnLoaderService) {}
    * turn on // this.loaderService.display(true)
    * turn off // this.loaderService.display(false)
    */

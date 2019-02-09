@@ -2,11 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { AnAngularLoaderModule } from 'an-angular-loader';
+import { AnLoaderModule } from 'an-loader';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AnAngularLoaderModule.forRoot()],
+  imports: [BrowserModule, AnLoaderModule.forRoot()],
   providers: [],
   bootstrap: [AppComponent],
 })

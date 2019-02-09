@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AnAngularLoaderService } from 'an-angular-loader';
+import { AnLoaderService } from 'an-loader';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +7,7 @@ import { AnAngularLoaderService } from 'an-angular-loader';
   styleUrls: ['./app.component.less'],
 })
 export class AppComponent {
-  constructor(private loaderService: AnAngularLoaderService) {
+  constructor(private loaderService: AnLoaderService) {
     this.loaderService.display(true);
     setTimeout(() => {
       this.loaderService.display(false);

@@ -1,14 +1,14 @@
 {
-  "name": "an-angular-loader",
+  "name": "an-loader",
   "version": "1.0.0",
   "authors": [
     "Admir Nisic <admir.nisic@outlook.com"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nisicadmir/an-angular-loader.git"
+    "url": "git+https://github.com/nisicadmir/an-loader.git"
   },
-  "homepage": "https://github.com/nisicadmir/an-angular-loader#readme",
+  "homepage": "https://github.com/nisicadmir/an-loader#readme",
   "keywords": [
     "angular",
     "angular 6",

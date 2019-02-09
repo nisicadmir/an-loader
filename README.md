@@ -5,7 +5,7 @@
 Download from npm
 
 ```
-npm install --save an-angular-loader
+npm install --save an-loader
 ```
 
 ### Angular installation
@@ -17,13 +17,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { AnAngularLoaderModule } from 'an-angular-loader';
+import { AnLoaderModule } from 'an-loader';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
-    AnAngularLoaderModule.forRoot(), // <-- import here, forRoot() is necessary
+    AnLoaderModule.forRoot(), // <-- import here, forRoot() is necessary
   ],
   providers: [],
   bootstrap: [AppComponent],
@@ -34,7 +34,7 @@ export class AppModule {}
 In app.component.html
 
 ```html
-<an-angular-loader></an-angular-loader>
+<an-loader></an-loader>
 ```
 
 In your component
