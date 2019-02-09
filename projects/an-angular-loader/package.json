@@ -1,0 +1,24 @@
+{
+  "name": "an-angular-loader",
+  "version": "1.0.0",
+  "authors": [
+    "Admir Nisic <admir.nisic@outlook.com"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nisicadmir/an-angular-loader.git"
+  },
+  "homepage": "https://github.com/nisicadmir/an-angular-loader#readme",
+  "keywords": [
+    "angular",
+    "angular 6",
+    "angular 7",
+    "loader"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0",
+    "@angular/core": "^6.0.0",
+    "rxjs": "~6.3.3"
+  }
+}
