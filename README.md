@@ -8,7 +8,7 @@ Download from npm
 npm install --save an-loader
 ```
 
-### Angular installation
+## Angular installation
 
 In app.module.ts
 
@@ -51,7 +51,7 @@ this.loaderService.display(true); // <-- turn on loader
 this.loaderService.display(false); // <-- turn off loader
 ```
 
-### Edit css
+## Edit css
 
 Main wrapper class
 z-index for .an-looader is 10000
