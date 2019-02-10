@@ -13,7 +13,8 @@
     "angular",
     "angular 6",
     "angular 7",
-    "loader"
+    "loader",
+    "angular loader"
   ],
   "license": "MIT",
   "peerDependencies": {
